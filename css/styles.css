@@ -784,8 +784,8 @@ body {
   opacity: 1;
 }
 
-.form-policy-checkbox:focus + .policy-span::after {
-  outline: 2px;
+.form-policy-checkbox:focus ~ .policy-span::after {
+  border-color: var(--accent-color);
 }
 
 /*  */
