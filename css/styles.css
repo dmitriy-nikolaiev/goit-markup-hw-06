@@ -762,6 +762,8 @@ body {
   height: 15px;
   border: 2px solid #000;
   border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .custom-checkbox-icon {
@@ -780,6 +782,7 @@ body {
   /* background-image: url(../images/icon-check.svg); */
   /* transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
+
 .form-policy-checkbox:checked ~ .custom-checkbox-icon {
   opacity: 1;
 }
