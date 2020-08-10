@@ -766,7 +766,7 @@ body {
 
 .custom-checkbox-icon {
   position: absolute;
-  /* top: 50%; */
+  top: 4px;
   left: -1px;
   opacity: 0;
   /* transform: translate(-150%, -50%); */
